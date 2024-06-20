@@ -1,8 +1,15 @@
+import Bills from "./components/Bills";
+import Users from "./components/Users";
+
 function App() {
   return (
-    <>
-      <h1>Hola</h1>
-    </>
+    <div
+      className="flex flex-col gap-2 h-screen bg-black
+     items-center"
+    >
+      <Bills />
+      <Users />
+    </div>
   );
 }
 
